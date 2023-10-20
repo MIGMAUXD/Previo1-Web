@@ -14,6 +14,8 @@ main {
     float: left;
     min-height: 400px;
     background-color: #f2f2f2; /* Cambia el color de fondo a tu gusto */
+   
+
 }
 
 /* Estilos para el aside */
@@ -90,6 +92,23 @@ font-weight: bold;
 
 
 
+.main-container{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
 
+img#foto{
+    width: 200px;
+    height: 200px;
+}
 
-
+.conteiner-2{
+    display: flex;
+    align-content: center;
+    padding-top: 10px;
+}
+.lorem{
+    padding-left: 5px;
+}
