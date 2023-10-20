@@ -45,4 +45,18 @@ footer#footer2 {
     background-color: #666; /* Cambia el color de fondo a tu gusto */
 }
 
+.header-container{
+    display: flex;
+    align-content: center;
+}
 
+img#logo{
+    width: 60px;
+    height: 60px;
+}
+
+h1{
+    margin-left: 20px;
+    align-items: center;
+    size: 2.5em;
+}
