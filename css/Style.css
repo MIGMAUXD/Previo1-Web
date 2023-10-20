@@ -40,7 +40,7 @@ footer#footer2 {
     float: right;
     max-height: 80px;
     min-height: 80px;
-    background-color: #666; /* Cambia el color de fondo a tu gusto */
+    background-color: #243357; /* Cambia el color de fondo a tu gusto */
 }
 
 .header-container{
@@ -71,3 +71,25 @@ font-weight: bold;
 .sin-vinetas {
     list-style: none; /* Elimina los estilos predeterminados de las viñetas */
 }
+
+.footer2-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 100%;
+}
+
+.texto {
+    color: white;
+    max-height: 5em; /* Limita el texto a 5 líneas de altura */
+    overflow: hidden; /* Oculta cualquier texto adicional que exceda las 5 líneas */
+    text-align: right; /* Centra el texto horizontalmente */
+    line-height: 0.8; /* Establece la altura de línea para controlar el espacio entre las líneas de texto */
+    width: 50%; /* Ocupa la mitad del contenedor */
+}
+
+
+
+
+
+
