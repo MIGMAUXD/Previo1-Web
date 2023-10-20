@@ -31,9 +31,7 @@ aside {
 footer#footer1 {
     width: 50%; /* El 50% del ancho de la ventana principal */
     float: left;
-    max-height: 80px;
-    min-height: 80px;
-    background-color: #333; /* Cambia el color de fondo a tu gusto */
+    background-color: #567bd1; /* Cambia el color de fondo a tu gusto */
 }
 
 /* Estilos para el segundo pie de página (footer2) */
@@ -59,4 +57,17 @@ h1{
     margin-left: 20px;
     align-items: center;
     size: 2.5em;
+}
+
+h3{
+size: 1.5em;
+font-weight: bold;
+}
+
+.footer1-container{
+    display: list-item;
+    align-content: center;
+}
+.sin-vinetas {
+    list-style: none; /* Elimina los estilos predeterminados de las viñetas */
 }
