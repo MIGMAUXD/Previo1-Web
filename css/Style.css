@@ -1,0 +1,48 @@
+/* Estilos para el encabezado (header) */
+header {
+    max-width: 1200px;
+    min-height: 120px;
+    background-color: #6490f5; /* Cambia el color de fondo a tu gusto */
+}
+
+/* Estilos para el contenedor principal */
+
+
+/* Estilos para el contenido principal (main) */
+main {
+    width: 75%; /* El 75% del espacio disponible */
+    float: left;
+    min-height: 400px;
+    background-color: #f2f2f2; /* Cambia el color de fondo a tu gusto */
+}
+
+/* Estilos para el aside */
+aside {
+    
+    width: 25%; /* El 25% del espacio disponible */
+    float: right;
+    min-width: 200px;
+    min-height: 400px;
+    background-color: #ccc; /* Cambia el color de fondo a tu gusto */
+}
+
+
+/* Estilos para el primer pie de página (footer1) */
+footer#footer1 {
+    width: 50%; /* El 50% del ancho de la ventana principal */
+    float: left;
+    max-height: 80px;
+    min-height: 80px;
+    background-color: #333; /* Cambia el color de fondo a tu gusto */
+}
+
+/* Estilos para el segundo pie de página (footer2) */
+footer#footer2 {
+    width: 50%; /* El 50% del ancho de la ventana principal */
+    float: right;
+    max-height: 80px;
+    min-height: 80px;
+    background-color: #666; /* Cambia el color de fondo a tu gusto */
+}
+
+
